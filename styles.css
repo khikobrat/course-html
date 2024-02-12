@@ -1,3 +1,18 @@
+.color {
+  color: orange;
+}
+
+.text-b {
+  font-weight: 800;
+}
+
+h1 {
+  background-color: aqua;
+}
+
+
+
+
 body {
   margin: 5px 0;
   width: 100%;
@@ -27,10 +42,10 @@ body {
   transition: all linear 200ms;
 }
 
-.card:hover {
+/* .card:hover {
   transform: scale(1.1);
   transition: all linear 200ms;
   z-index: 1;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-}
+} */

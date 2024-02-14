@@ -24,7 +24,7 @@ body {
   flex-direction: row;
   flex-wrap:  wrap;
   justify-content: center;
-  align-items: center !important;
+  align-items: center;
   gap: 5px;
   width: 100%;
 }

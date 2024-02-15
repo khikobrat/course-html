@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to right, #9309ff 0%, #fd0076 100%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    position: relative;
+    background-color: #fff;
+    height: 60vh;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.login-form h2 {
+    text-align: left;
+    margin-bottom: 15px;
+    font-family: Arial, Bold;
+}
+.login-form p{
+    font-family: Leelawadee, ui-serif;
+}
+
+.login-form input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    margin-left: 0; /* Добавлено для приближения к черточкам */
+}
+
+.login-form button, .twitter-button, .facebook-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px; /* Расстояние между кнопками и текстовыми полями */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.twitter-button {
+    background-color: #1da1f2;
+    margin-right: 10px; /* Расстояние между кнопками */
+}
+.twitter-button:hover {
+    background-color: #003c61;
+    margin-right: 10px; /* Расстояние между кнопками */
+}
+
+
+.facebook-button {
+    background-color: #3b5998;
+}
+.facebook-button:hover {
+    background-color: #273163;
+}
+.chertochka {
+    background: linear-gradient(to left, #ff0077 0%, #7c00ff 50%);
+    height: 2px;
+    width: 100%;
+    margin-bottom: 20px; /* Ширина черточки теперь соответствует ширине инпута */
+}
+.continue-button {
+    background: linear-gradient(to right, #ff0077, #7c00ff);
+}
+.continue-button:hover {
+    background: linear-gradient(to right, #f70000, #0048ff);
+}

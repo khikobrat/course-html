@@ -1,0 +1,25 @@
+.block-element {
+    display: block;
+    width: 100%;
+    background-color: rgb(255, 251, 0);
+    margin-bottom: 10px;
+}
+
+.inline-element {
+    display: inline;
+    background-color: rgb(69, 235, 69);
+    margin-right: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around; /* Равномерное распределение по ширине контейнера */
+    align-items: center; /* Выравнивание элементов по центру по вертикали */
+    background-color: rgb(230, 46, 46);
+    height: 200px;
+}
+
+.flex-item {
+    background-color: lightblue;
+    padding: 15px;
+}

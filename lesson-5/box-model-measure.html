@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box modeling and measure units CSS</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content-box" style="display: flex;">
+            <div class="box box1">
+                <div class="title1">
+                    Box1
+                    box-sizing: content-box
+                    padding: 20px
+
+                    Font-size in PX
+                    <div class="nested_title1">
+                        Group CS11-23
+                    </div>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="title1">
+                    Box2
+                    box-sizing: content-box
+                    margin: 20px
+                    Font-size in EM
+                    <div class="nested_title1">
+                        Group CS11-23
+                    </div>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="title1">
+                    Box3
+                    box-sizing: content-box
+                    border: 20px
+                    Font-size in REM
+                    <div class="nested_title1">
+                        Group CS11-23
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-box" style="display: flex; gap: 1rem;">
+            <div class="box box4">
+                <div class="title1">
+                    Box4
+                    box-sizing: border-box
+                    padding: 20px
+                    Font-size in % Percent
+                    <div class="nested_title1">
+                        Group CS11-23
+                    </div>
+                </div>
+            </div>
+            <div class="box box5">
+                <div class="title1">
+                    Box5
+                    box-sizing: border-box
+                    margin: 20px
+                    <div class="nested_title1">
+                        Group CS11-23
+                    </div>
+                </div>
+            </div>
+            <div class="box box6">
+                <div class="title1">
+                    Box5
+                    box-sizing: border-box
+                    border: 20px
+                    <div class="nested_title1">
+                        Group CS11-23
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

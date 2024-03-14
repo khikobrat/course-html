@@ -1,0 +1,72 @@
+body {
+  background-color: aqua;
+}
+
+.box {
+  float: left;
+  background: #de4e00;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  animation: expand 0.5s ease-in-out;
+}
+
+.close {
+  animation: close 0.5s ease-in-out;
+}
+@keyframes expand {
+  from {
+    transform: scale(0);
+    opacity: 0;
+    background: #5470b0;
+  }
+}
+
+@keyframes close {
+  from {
+    transform: scale(1);
+    opacity: 1;
+    background: #5470b0;
+  }
+  to {
+    transform: scale(0);
+    opacity: 0;
+    background: #5470b0;
+  }
+}
+
+/* @keyframes expand {
+  from {
+    transform: scale(0);
+    opacity: 0;
+    background: #5470B0;
+  }
+}
+
+.add-box {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #BDFCED;
+  color: #00DECF;
+  font-size: 50px;
+  vertical-align: middle;
+  border: 0;
+  cursor: pointer;
+  
+  &:focus {
+    outline: 0;
+  }
+}
+
+.box {
+  float: left;
+  background: #00DECF;
+  width: 100px;
+  height: 100px;
+  animation: expand .5s ease-in-out;
+}
+
+body {
+  background: #5470B0;
+} */

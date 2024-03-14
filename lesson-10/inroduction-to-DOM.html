@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример DOM</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="myDiv">
+        <p>Привет, мир!</p>
+    </div>
+
+    <script>
+        // Получаем доступ к элементу с id "myDiv"
+        var divElement = document.getElementById("myDiv");
+
+        setTimeout(() => {
+            divElement.innerHTML = "<p>Привет, новый мир!</p>";
+        }, 1000);
+        // // Изменяем текстовое содержимое элемента
+
+        // // Добавляем новый элемент внутрь divElement
+        var newElement = document.createElement("span");
+        newElement.textContent = " Это новое содержимое.";
+        setTimeout(() => {
+            divElement.appendChild(newElement);
+        }, 2000);
+
+        // // Добавляем класс "highlight" к divElement
+        divElement.classList.add("highlight");
+
+        // // Удаляем класс "highlight" через 3 секунды
+        setTimeout(function () {
+            divElement.classList.remove("highlight");
+        }, 4000);
+    </script>
+
+    <script src="test.js"></script>
+
+</body>
+
+</html>

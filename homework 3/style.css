@@ -1,0 +1,606 @@
+* {
+    /* font-family: 'Poppins'; */
+    font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+
+
+.header {
+    background-color: white;
+    height: 10vh;
+}
+
+.rty {
+    right: 250px;
+    text-align: center;
+}
+
+
+.header a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.header li {
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+    padding-left: 25px;
+    top: 20px;
+}
+
+.header .reg {
+    display: inline;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    background-color: #66BB29;
+    color: white;
+    border: 13px solid #66BB29;
+    border-radius: 4px;
+}
+
+.Logo {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+}
+
+.pictures {
+    background-color: whitesmoke;
+    height: 50vh;
+    position: relative;
+    bottom: 35px;
+}
+
+.Lessons_and_insights {
+    position: relative;
+    font-size: 50px;
+    top: 100px;
+    left: 100px;
+    font-weight: 500;
+}
+
+.from_8_years {
+    position: relative;
+    font-size: 50px;
+    top: 40px;
+    left: 100px;
+    font-weight: 500;
+    color: #66BB29;
+}
+
+.long-text {
+    position: relative;
+    font-size: 10px;
+    top: 0px;
+    left: 100px;
+    font-weight: 400;
+}
+
+.reg-but {
+    display: inline;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    font-size: 14px;
+    background-color: #66BB29;
+    color: white;
+    border: 13px solid #66BB29;
+    border-radius: 4px;
+}
+
+.man {
+    position: relative;
+    z-index: 1;
+    left: 1400;
+    bottom: 100;
+}
+
+.buttons {
+    position: relative;
+    text-align: center;
+    bottom: -160px;
+    font-size: 8px;
+}
+
+.ourClients {
+    background-color: white;
+    position: relative;
+    width: 1880 px;
+    height: 1000vh;
+    left: 0px;
+    bottom: 57px;
+}
+
+.ourClients h1 {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-weight: 600;
+}
+
+.ourClients h6 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    color: grey;
+}
+
+
+.icons {
+    display: flex;
+    width: 100%;
+}
+
+.oiu {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 40px;
+    position: relative;
+    top: 16px;
+}
+
+
+.ourClients .qwe {
+    position: relative;
+    top: 10px;
+    color: rgb(54, 53, 53);
+}
+
+.ourClients .zxc {
+    color: rgb(54, 53, 53);
+}
+
+.ourClients .pivo {
+    position: relative;
+    top: -30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.row {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+
+.first .membership {
+    text-align: center;
+    position: relative;
+    color: rgb(39, 38, 38);
+    display: inline;
+    right: 100px;
+}
+
+.first .lorem1 {
+    text-align: center;
+    width: 400px;
+    position: relative;
+    left: -160px;
+    top: -10px;
+}
+
+.first {
+    position: relative;
+    left: 220px;
+}
+
+.first .national {
+    text-align: center;
+    position: relative;
+    color: rgb(39, 38, 38);
+    display: inline;
+    right: 100px;
+    right: 68px;
+}
+
+.first .groups {
+    position: relative;
+    top: 5px;
+    right: 190px;
+}
+
+.first .lorem3 {
+    text-align: center;
+    width: 400px;
+    position: relative;
+    left: -180px;
+    top: -10px;
+}
+
+.row {
+    position: relative;
+    top: -30px;
+}
+
+.manAndWoman .imageOfManAndWoman img {
+    width: 370%;
+    position: relative;
+    left: 150px;
+    display: inline;
+}
+
+.manAndWoman .textForMan .h1ForMan {
+    width: 40%;
+    text-align: left;
+    right: -100px;
+}
+
+.manAndWoman {
+    display: inline-flex;
+}
+
+
+.manAndWoman .textForMan .h6ForMan {
+    width: 40%;
+    text-align: left;
+    right: -100px;
+    top: 30px;
+}
+
+.manAndWoman .textForMan .buttonForMan {
+    display: inline;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    font-size: 14px;
+    background-color: #66BB29;
+    color: white;
+    border: 13px solid #66BB29;
+    border-radius: 4px;
+}
+
+.textForMan {
+    position: relative;
+    right: -500px;
+    top: 30px;
+}
+
+.help {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 60vh;
+    display: flexbox;
+}
+
+.help h1 {
+    position: relative;
+    font-size: 50px;
+    top: 140px;
+    left: 100px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.help .green {
+    position: relative;
+    font-size: 40px;
+    top: 90px;
+    left: 100px;
+    font-weight: 500;
+    color: #66BB29;
+    text-align: left;
+}
+
+.help h6 {
+    position: relative;
+    font-size: 15px;
+    top: 80px;
+    left: 100px;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+}
+
+
+.stats-grid {
+    display: grid;
+    grid-row: 1fr 1fr;
+    grid-column: 1fr 1fr;
+    font-size: 40px;
+}
+
+.stats-grid .gr-1 i{
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.stats-grid .gr-1 .popa{
+    width: 100px;
+    font-weight: 400;
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+}
+
+
+.stats-grid .gr-1 .popa2{
+    width: 100px;
+    font-weight: 400;
+    position: relative;
+    right: 90px;
+    font-size: 15px;
+    bottom: -20px;
+    text-align: center;
+}
+
+.gr-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.gr-3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.gr-4 {
+    
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.stats-grid{
+    position: relative;
+    left: 800px;
+    box-sizing: border-box;
+    padding-right: 900px;
+    bottom: 100px;
+}
+
+.stats-grid .gr-2 i{
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.stats-grid .gr-2 .popa{
+    width: 100px;
+    font-weight: 400;
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+}
+
+
+.stats-grid .gr-2 .popa2{
+    width: 100px;
+    font-weight: 400;
+    position: relative;
+    right: 90px;
+    font-size: 15px;
+    bottom: -20px;
+    text-align: center;
+}
+
+.stats-grid .gr-3 i{
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.stats-grid .gr-3 .popa{
+    width: 100px;
+    font-weight: 400;
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+}
+
+
+.stats-grid .gr-3 .popa2{
+    width: 100px;
+    font-weight: 400;
+    right: 67px;
+    position: relative;
+    font-size: 15px;
+    bottom: -20px;
+    text-align:left;
+}
+
+.stats-grid .gr-4 i{
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.stats-grid .gr-4 .popa{
+    width: 100px;
+    font-weight: 400;
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+}
+
+
+.stats-grid .gr-4 .popa2{
+    width: 100px;
+    font-weight: 400;
+    position: relative;
+    right: 70px;
+    font-size: 15px;
+    bottom: -20px;
+    text-align: center;
+}
+
+.Woman .imageOfWoman img {
+    width: 500%;
+    position: relative;
+    left: 150px;
+    display: inline;
+    top: 190px;
+}
+
+.Woman .textForWoman .h1ForWoman {
+    width: 40%;
+    text-align: left;
+    right: -100px;
+    top: 60px;
+}
+
+.Woman {
+    display: inline-flex;
+    position: relative;
+    left: 100px;
+    top: -110px;
+}
+
+
+.Woman .textForWoman .h6ForWoman {
+    width: 40%;
+    text-align: left;
+    right: -100px;
+    top: 30px;
+}
+
+.Woman .textForWoman .buttonForWoman {
+    display: inline;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    font-size: 14px;
+    background-color: #66BB29;
+    color: white;
+    border: 13px solid #66BB29;
+    border-radius: 4px;
+}
+
+.textForWoman {
+    position: relative;
+    right: -500px;
+    top: 90px;
+}
+
+
+.tesla{
+    display: inline-flex;
+    width: 100%;
+    background-color: whitesmoke;
+    height: 70vh;
+}
+
+.tesla .imageOfTesla img{
+    width: 400%;
+    position: relative;
+    left: 200px;
+    top: 60px;
+}
+
+.tesla .textForTesla p{
+    position: relative;
+    width: 800px;
+    left: 650px;
+    top: 50px;
+    color: grey;
+}
+
+.tesla .textForTesla .h1ForTesla{
+    color: #66BB29;
+    font-size: 30px;
+    position: relative;
+    text-align: right;
+    top: 70px;
+    left: 0px;
+}
+
+.tesla .textForTesla .h6ForTesla{
+    color: gray;
+    position: relative;
+    left:650px;
+    top: 40px;
+    text-align: left;
+}
+
+
+.okm{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 40px;
+    position: relative;
+    bottom: -400px;
+    left: -220px;
+}
+
+.okm li{
+    margin: 10px 30px;
+}
+
+
+.okm li p{
+    color:#66BB29;
+    font-size: 20px;
+    width: 1000px;
+    top: -3px;
+    left: -20px;
+    position: relative;
+}
+
+
+.images{
+    position: absolute;
+    width: 100%;
+}
+
+.imagesForImages{
+    position: relative;
+}
+
+.images .textForImages h1{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    left: 0px;
+}
+
+.textForImages h6{
+    width: 40%;
+    text-align: center;
+    position: relative;
+    left: 517px;
+    top: 30px;
+}
+
+
+.pomni li img{
+    width: 160%;
+}
+
+.pomni{
+    left: -100px;
+    bottom: -20px;
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.pomni div{
+    position: relative;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: whitesmoke;
+    width: 200px;
+    text-align: center;
+    left: 100px;
+    top: -100px;
+}

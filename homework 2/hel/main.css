@@ -1,0 +1,196 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+
+.manImg img{
+    width: 70px;
+    height: 41px;
+}
+
+.manImg {
+    width: 100px;
+    margin: auto;
+}
+
+.header {
+    list-style-type: none;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly; 
+    width: 60%;
+}
+
+
+
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.header li {
+    display: inline;
+    font-size: 14px;
+}
+
+.header a {
+    text-decoration: none;
+} 
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+
+.leftPart {
+    display: flex;
+}
+
+
+.houseImage {
+    width: 700px;
+    height: 829px;
+    position: relative;
+}
+
+.houseImage img {
+    position: relative;
+    width: 770px;
+    height: 829px;
+}
+
+.houseImage .imgButton {
+    position: absolute;
+    background-color: white;
+    border-color: transparent;
+    bottom: 0;
+    left: 0;
+    width: 222px;
+    height: 71px;
+}
+
+.container {
+    margin: 0 4rem;
+}
+
+.container .projectTitle {
+    color: rgba(189, 189, 189, 1);
+    font-weight: 300;
+    font-size: 64px;
+    margin-left: 135px;
+    margin-top: 460px;
+}
+
+.container .lorumTitle {
+    color: rgba(51, 51, 51, 1);
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 73px;
+    margin-left: 135px;
+}
+
+.leftPart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* .leftPart p {
+    left: 0%;
+} */
+
+.leftButton {
+    width: 53px;
+    height: 53px;
+    border-color: rgb(213, 213, 213, 0.1);
+    background-color: white;
+    margin-left: 135px;
+    margin-top: 90px;
+    position: relative;
+}
+
+.rightButton {
+    width: 53px;
+    height: 53px;
+    border-color: rgb(213, 213, 213, 0.1);
+    background-color: white;
+    margin-left: 23px;
+    margin-top: 90px;
+}
+
+.slideNumberImage {
+    top: 820px;
+    position: absolute;
+    left: 144px;
+}
+
+.grayContainer {
+    width: 1170px;
+    height: 435px;
+    background-color: #f7f7f7;
+    margin-top: 310px;
+    margin-left: 135px;
+    position: relative;
+}
+
+.img1 {
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+.img2 {
+    position: absolute;
+    left: 400px;
+    top: 60px;
+}
+
+.img3 {
+    position: absolute;
+    left: 100px;
+    top: 325px;
+}
+
+.aboutText {
+    position: absolute;
+    font-weight: 300;
+    font-size: 64px;
+    color: rgba(189, 189, 189, 1);
+    left: 700px;
+    top: -40px;
+}
+
+.loremTitle {
+    position: absolute;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    top: 114px;
+    left: 700px;
+    color: rgba(0, 0, 0, 1);
+    line-height: 23px;
+}
+
+.readMoreButton {
+    position: absolute;
+    background-color: white;
+    border-color: transparent;
+    top: 334px;
+    left: 700px;
+    width: 222px;
+    height: 71px;
+    color: rgba(51, 51, 51, 1);
+    font-size: 16px;
+}
+
+.mainFocusTitle p {
+    color: rgba(189, 189, 189, 1);
+    font-weight: 300;
+    font-size: 64px;
+    margin-top: 1900px;
+    margin-left: 50px;
+}
+
+.mainFocusTitle {
+    background-color: blue;
+    margin-top: 100px;
+}

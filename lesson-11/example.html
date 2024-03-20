@@ -13,7 +13,7 @@
     <button id="delete" class="box" style="color: white;">Delete Box</button>
     <script>
         const btn = document.getElementById('btn')
-        btn.addEventListener('click', () => {
+        const clickEvent = btn.addEventListener('click', () => {
             // console.log('click')
             const box = document.createElement('div')
             box.classList.add('box')
@@ -24,6 +24,7 @@
         const deletde = document.getElementById('delete');
         deletde.addEventListener('click', () => {
             const allBoxes = document.querySelectorAll('.box1');
+            allBoxes[0].setAttribute('id')
             console.log('all', allBoxes)
             const lastElement = allBoxes[allBoxes.length-1]
             lastElement.classList.add('close');
@@ -35,7 +36,11 @@
             //     el.remove()
             // })
         })
-   
+
+
+        setTimeout(() => {
+            removeEventListener(clickEvent)
+        }, 10000);
 
     </script>
 </body>

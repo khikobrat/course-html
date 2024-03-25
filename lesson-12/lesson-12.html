@@ -1,0 +1,92 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubbling Example</title>
+</head>
+
+<body>
+
+    <div id="outer">
+        <div id="inner">
+            <button id="btn">Click me</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('outer').addEventListener('click', function () {
+            console.log('Outer div clicked');
+        });
+
+        document.getElementById('inner').addEventListener('click', function () {
+            console.log('Inner div clicked');
+        });
+
+        document.getElementById('btn').addEventListener('click', function (event) {
+            // event.stopPropagation(); // Остановить всплытие события
+            console.log('Button clicked');
+        });
+    </script>
+
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capturing Example</title>
+</head>
+
+<body>
+<!-- 
+    <div id="outer">
+        <div id="inner">
+            <button id="btn">Click me</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('outer').addEventListener('click', function () {
+            console.log('Outer div clicked');
+        }, true); // Установка третьего аргумента в true для захвата события
+
+        document.getElementById('inner').addEventListener('click', function () {
+            console.log('Inner div clicked');
+        }, true); // Установка третьего аргумента в true для захвата события
+
+        document.getElementById('btn').addEventListener('click', function (event) {
+            console.log('Button clicked');
+        });
+    </script> -->
+
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+
+    <script>
+        window.addEventListener('keypress', function (event) {
+            console.log('keypress', event);
+                // if (event.target.tagName === 'LI') {
+                //     console.log('Clicked on:', event.target.textContent);
+                // }
+            });
+                    window.addEventListener('keydown', function (event) {
+                            console.log('keydown', event);
+                            // if (event.target.tagName === 'LI') {
+                            //     console.log('Clicked on:', event.target.textContent);
+                            // }
+                        });
+    </script>
+
+</body>
+
+</html>

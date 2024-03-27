@@ -48,79 +48,64 @@ const imageUrls = [
 // Анимируем появление изображений после загрузки страницы
 // window.addEventListener("load", animateImages);
 
+const arr = [12,234,4523]
+const number =arr[0]
+const number1 = arr[1]
+const number2 = arr[2]
 
 // Extracting values from an array
-// const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5];
 
-// const [first, second] = numbers;
+// const [first, second, a] = numbers;
 // console.log(first);
 // console.log(second); 
 
 // Ignoring some values
-// const [one, , three, , five] = numbers;
-// console.log(one); // Output: 1
-// console.log(three); // Output: 3
-// console.log(five); // Output: 5
-
-// Ignoring some values
-// const [one, , three, , five] = numbers;
-// console.log(one); // Output: 1
-// console.log(three); // Output: 3
-// console.log(five); // Output: 5
+const [one, , three, , five] = numbers;
+console.log(one); // Output: 1
+console.log(three); // Output: 3
+console.log(five); // Output: 5
 
 // Swapping values using destructuring assignment
-// let a = 1;
-// let b = 2;
+let a = 1;
+let b = 2;
 
-// [a, b] = [b, a];
-// console.log(a); // Output: 2
-// console.log(b); // Output: 1
+[a, b] = [b, a];
+console.log(a); // Output: 2
+console.log(b); // Output: 1
 
 // Destructuring objects
-// const person = {
-//   name: 'John',
-//   age: 30,
-//   country: 'USA'
-// };
+const person = {
+  name: 'John',
+  age: 30,
+  country: 'USA'
+};
 
-// const { name, age } = person;
-// console.log(name); // Output: John
-// console.log(age); // Output: 30
+const { name, age } = person;
+console.log(name); // Output: John
+console.log(age); // Output: 30
 
 // Nested destructuring
-// const student = {
-//   name: 'Alice',
-//   info: {
-//     grade: 'A',
-//     subjects: ['Math', 'Science']
-//   }
-// };
+const student = {
+  name: 'Alice',
+  info: {
+    grade: 'A',
+    subjects: ['Math', 'Science']
+  }
+};
 
-// const { name, info: { grade, subjects } } = student;
-// console.log(name); // Output: Alice
-// console.log(grade); // Output: A
-// console.log(subjects); // Output: ['Math', 'Science']
+const { name, info: { grade, subjects } } = student;
+console.log(name); // Output: Alice
+console.log(grade); // Output: A
+console.log(subjects); // Output: ['Math', 'Science']
 
 // Function parameter destructuring
-// function greet({ name, age }) {
-//   console.log(`Hello, ${name}! You are ${age} years old.`);
-// }
+function greet({ name, age }) {
+  console.log(`Hello, ${name}! You are ${age} years old.`);
+}
 
-// const personData = { name: 'Alice', age: 25 };
-// greet(personData); // Output: Hello, Alice! You are 25 years old.
-
-
-
-
-
-
-
-
-
-
-
-
-
+const personData = { name: 'Alice', age: 25 };
+greet(personData); // Output: Hello, Alice! You are 25 years old.
 
 
 function traingle() {
